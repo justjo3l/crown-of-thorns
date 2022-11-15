@@ -8,7 +8,7 @@ In order to use the yolov7 notebook, run each cell of the notebook and then eith
 - Create a folder 'test_images' and store all images to be tested in it.
 - Run the cells to generate a 'test_images' folder with randomly selected images to test with.
 
-Then, run the wandb login and install the artifacts.
+Then, run the wandb login and install the artifacts and remove the ':v0' from the model name in the installed artifacts folder.
 
 Finally, install yolov7 from the repository using the respective cell in the notebook, and replace the 'detect.py' file in yolov7 with the 'detect.py' given.
 
